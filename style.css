@@ -1,0 +1,115 @@
+
+
+* {
+    font-family: arial;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #ebeaea;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+nav ul {
+    /*background-color: blue;*/
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+nav ul li a{
+    color: black;
+}
+
+.nav-left {
+    flex: 50%; /* mengatur lebar */
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+}
+
+.nav-right a {
+    background-color: black;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.container {
+    background-color: lightgrey; 
+    height: 112vh;
+    display: flex;
+    justify-content: center; /* horizontal */ 
+    align-items: center; /* vertical */
+}
+
+section {
+    background-color: white; 
+    border: 3px solid rgb(214, 213, 213);
+    padding: 26px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 18px rgb(194, 192, 192);
+    display: flex;
+    width: 60%;
+}
+
+.left {
+    flex: 60%;
+}
+
+.right {
+    flex: 40%;
+   
+}
+
+.card{
+    width: 350px;
+    order: 1px solid #ebeaea;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #cecece;
+}
+
+.card h2{
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: center;
+}
+
+.card p{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+/*.skill {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.skill img{
+    width: 80px;
+}*/
+
+.social-media{
+    margin-top: 30px;
+}
+.social-media i {
+    margin-right: 20px;
+    font-size: 30px;
+}

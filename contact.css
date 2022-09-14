@@ -1,0 +1,106 @@
+*{
+	font-family: arial;
+	text-decoration: none;
+	margin: 0;
+}
+body{
+	background-color: lightgrey;
+}
+
+form {
+	background-color:lightgrey;
+	width: 320px;
+	margin: 60px auto;
+	padding: 20px;
+}
+
+nav {
+    background-color: #ebeaea;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+nav ul {
+    /*background-color: blue;*/
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+nav ul li {
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-left {
+    flex: 50%; /* mengatur lebar */
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+}
+
+.nav-right a {
+    background-color: black;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 12px;
+}
+
+.nav-right a:hover{
+	background-color: orangered;
+}
+
+
+form div {
+	/*background-color: lightgrey;*/
+	margin-top: 15px;
+
+}
+
+form label {
+	/*color: red;*/
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input, select, textarea {
+
+	padding: 10px;
+	background-color:#ebeaea ;
+	width: 100%;
+	margin-top: 5px;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: 6px 6px 0 dimgray;
+}
+
+button{
+	background-color: black;
+	color: white;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	font-size: 15px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+button:hover{
+	background-color: blue;
+}
+
+.button{
+	display: flex;
+	justify-content: flex-end;
+}
